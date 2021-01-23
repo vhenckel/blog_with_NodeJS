@@ -1,0 +1,32 @@
+{
+  "name": "blogWithNodeJS",
+  "version": "1.0.0",
+  "description": "Criação de um blog com painel administrativo (CMS) em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sd": "nodemon -q --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhenckel/blog_with_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vhenckel/blog_with_NodeJS/issues"
+  },
+  "homepage": "https://github.com/vhenckel/blog_with_NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
