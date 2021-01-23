@@ -6,9 +6,9 @@ Criação de um blog com painel administrativo (CMS) em NodeJS
 </h1> -->
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vhenckel/questionandanswer?label=javascript&style=for-the-badge">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vhenckel/questionandanswer?style=for-the-badge">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vhenckel/questionandanswer?style=for-the-badge">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/vhenckel/blog_with_NodeJS?label=javascript&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vhenckel/blog_with_NodeJS?style=for-the-badge">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/vhenckel/blog_with_NodeJS?style=for-the-badge">
 </p>
 
 <p align="center">
