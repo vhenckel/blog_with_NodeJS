@@ -1,13 +1,33 @@
 <%- include('partials/header.ejs') %>
+<%- include('partials/homenavbar.ejs') %>
 
 <div class="container">
-    <br>
+  <hr class="my-4">
+  <div class="jumbotron">
+    <h1 class="display-4">NodePress</h1>
+    <p class="lead">Blog simples criado com NodeJS - Express and Sequelize</p>
+    <hr class="my-4">
+  </div>
+  <br>
+  <% articles.forEach(article => { %>
+    
     <div class="card">
+      <div class="card-header">
+        <h2><%= article.title %></h2>
+      </div>
       <div class="card-body">
-        <h1>MyPress</h1>
+        <a href="/<%= article.slug %>" class="btn btn-success">Ler artigo...</a>
       </div>
     </div>
     <br>
+  <% }) %>
+  <div class="row">
+    <div class="col col-12">
+      <a style="float: right;" class="btn btn-primary" href="/articles/page/2">Next >>></a>
+    </div>
+    <hr>
+  </div>
+  <br>
 </div>
 
 <%- include('partials/footer.ejs') %>

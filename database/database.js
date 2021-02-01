@@ -10,7 +10,8 @@ const Sequelize = require('sequelize')
 const connection = new Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   host: DB_HOST,
   dialect: 'mysql',
-  port: DB_PORT
+  port: DB_PORT,
+  timezone: "-03:00"
 })
 
 module.exports = connection
